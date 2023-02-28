@@ -4,9 +4,12 @@ import 'package:shining_star_markets/Screens/IB_client_screen.dart';
 import 'package:shining_star_markets/Screens/funding.dart';
 import 'package:shining_star_markets/Screens/profile.dart';
 import 'package:shining_star_markets/Screens/trading.dart';
+import 'package:shining_star_markets/Screens/withdraw_history_screen.dart';
 import 'Commision_tran.dart';
+import 'Deposite_History_Listing.dart';
 import 'IB_Dashboard.dart';
 import 'IB_my_commission_screen.dart';
+import 'My_mt5_account_list.dart';
 import 'home.dart';
 
 class DashboardController extends StatefulWidget {
@@ -21,10 +24,10 @@ class _DashboardController extends State<DashboardController> {
 
   final pages = [
     const IB_Dashboard(),
-    const IB_Client(),
-    const IB_Commision(),
+    const Withdraw_history_screen(),
+    const My_my5_account_list(),
     // const Fav(),
-    const Commision_trans_details(),
+    const Deposit_history_listing_screen(),
   ];
 
   @override
