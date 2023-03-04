@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:shining_star_markets/Constants/constant.dart';
 import 'package:shining_star_markets/Screens/IB_client_screen.dart';
+import 'package:shining_star_markets/Screens/Login2.dart';
+import 'package:shining_star_markets/Screens/Register2.dart';
 import 'package:shining_star_markets/Screens/funding.dart';
 import 'package:shining_star_markets/Screens/profile.dart';
+import 'package:shining_star_markets/Screens/signup23.dart';
 import 'package:shining_star_markets/Screens/trading.dart';
 import 'package:shining_star_markets/Screens/withdraw_history_screen.dart';
 import 'Commision_tran.dart';
@@ -23,8 +26,8 @@ class _DashboardController extends State<DashboardController> {
   int pageIndex = 0;
 
   final pages = [
-    const IB_Dashboard(),
-    const Withdraw_history_screen(),
+    const MyLogin(),
+    const SignUpPage(),
     const My_my5_account_list(),
     // const Fav(),
     const Deposit_history_listing_screen(),
