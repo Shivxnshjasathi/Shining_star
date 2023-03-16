@@ -438,7 +438,6 @@ class _My_my5_account_list extends State<My_my5_account_list> {
                                         ),
                                       ],
                                     ),
-
                                   ],
                                 ),
                                 Column(
@@ -492,7 +491,6 @@ class _My_my5_account_list extends State<My_my5_account_list> {
                                 )
                               ],
                             ),
-
 
                             const Divider(color: Colors.grey),
 

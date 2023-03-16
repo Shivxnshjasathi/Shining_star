@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^3.0.1
   google_nav_bar: ^5.0.6
   carousel_slider: ^4.2.1
+  file_picker: ^5.2.6
   fl_chart: ^0.55.2
   intl: ^0.17.0
   http: ^0.13.5

@@ -42,7 +42,7 @@ class _MyLoginState extends State<MyLogin> {
                           style: GoogleFonts.alata(
                             fontWeight: FontWeight.w300,
                             color: Colors.white,
-                            fontSize: 55,
+                            fontSize: 40,
                           ),
                         ),
                       ),
@@ -55,7 +55,7 @@ class _MyLoginState extends State<MyLogin> {
                         style: GoogleFonts.alata(
                           fontWeight: FontWeight.w300,
                           color: Colors.white,
-                          fontSize: 22,
+                          fontSize: 12,
                         ),
                       ),
                     ],
